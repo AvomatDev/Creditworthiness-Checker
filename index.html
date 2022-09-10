@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="sec1">
+        <h1>ALAJO CREDIT <br>CHECKER</h1>
+
+        <div class="image1"> <img src="image/undraw_Savings_re_eq4w.png" alt="" width="70">
+            <label for="" id="messageTxt"> THIS TO SHOW YOUR RESULT </label>
+        </div>
+
+    </div>
+
+
+    <div class="sec1b">
+        <br>
+        <b>...Check your creditworthiness </b> <br><br>
+        <input type="Text" id="firstName" placeholder="First Name">
+        <label id="firstNameError"></label><br>
+
+        <input type="Text" id="lastName" placeholder="Last Name">
+        <label id="lastNameError"></label><br>
+
+        <input type="number" id="act" Placeholder="Acccount Number">
+        <label id="actError"> </label><br>
+
+        <div class="sec2">
+            <input id="ab" type="number" placeholder="Account Balance">
+            <label id="abError"></label> <br>
+
+            <input id="loanRequestAmt" type="number" placeholder="Loan Request Amount">
+            <label id="loanRequestAmtError"></label> <br>
+
+            <select id="creditHistory">
+                <option value=""> Select Last Credit</option>
+                <option value="1"> 1-5 Months ago</option>
+                <option value="2"> 6 Months ago</option>
+            </select>
+            <label id="creditHistoryError"></label> <br>
+
+
+            <select id="depositDate">
+                <option value=""> Select Last Deposit Month</option>
+                <option value="1">Last-Month </option>
+                <option value="2">Two Month-Above</option>
+            </select>
+            <label id="depositDateError"></label> <br>
+
+            <select id="lastLoanCollection">
+                <option value=""> Select Last Loan Collection Date</option>
+                <option value="1">1-5 Months Ago</option>
+                <option value="2">6-12 Months Ago</option>
+            </select>
+            <label id="lastLoanCollectionError"></label> <br>
+
+            <select id="loanRepaymentPeriod">
+                <option value=""> Loan Repayment Period</option>
+                <option value="1">1-6 Months</option>
+                <option value="2">6- 12Above</option>
+            </select>
+
+            <label id="loanRepaymentPeriodError"></label> <br>
+
+            <select id="accountType">
+                <option value=""> Account Type</option>
+                <option value="1">Current</option>
+                <option value="2">Saving</option>
+            </select>
+            <label id="accountTypeError"></label> <br>
+
+        </div><br><br>
+        <button type="button" id="btnsubmit"> Submit</button>
+
+    </div>
+    </div>
+    <br><br>
+    <script src="main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+body {
+    background-color: #fdeff9;
+}
+
+h1 {
+    color: #7303c0;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 55px;
+    text-align: center;
+}
+
+
+
+.sec1 {
+    text-align: center;
+}
+
+.sec1b {
+    text-align: center;
+    background-color: #7303c0;
+    border-radius: 20px;
+    width: 40%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 420px;
+    margin-bottom: 20px;
+}
+
+.image1 {
+    width: 40%;
+    margin-top: 60px;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+    height: 60px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+input {
+    width: 65%;
+    padding: 5px;
+    margin-bottom: 2px;
+}
+
+select {
+    width: 67.3%;
+    padding: 5px;
+    margin-bottom: 2px;
+}
+
+button {
+    width: 90px;
+    padding: 6px;
+    text-decoration: none;
+    border-radius: 5px solid grey;
+}
+
+#messageTxt {
+    color: #ec38bc;
+    font-size: 20px;
+}
+
+b {
+    color: #fdeff9;
+    font-style: italic;
+}
+
+#firstNameError,
+#lastNameError,
+#actError,
+#abError,
+#loanRequestAmtError,
+#creditHistoryError,
+#depositDateError,
+#lastLoanCollectionError,
+#loanRepaymentPeriodError,
+#accountTypeError {
+    color: red
+}
